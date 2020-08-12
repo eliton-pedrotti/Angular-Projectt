@@ -10,7 +10,7 @@ git clone https://github.com/eliton-pedrotti/Angular-Project.git
 ```
 # Instale as Dependências dentro da pasta do projeto
 ```bash
-cd /Angular-Project
+cd /Angular-Projectt
 npm install
 ``` 
 # Abra o projeto em seu navegador
