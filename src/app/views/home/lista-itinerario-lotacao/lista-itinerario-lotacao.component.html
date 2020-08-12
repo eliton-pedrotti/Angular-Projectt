@@ -1,0 +1,20 @@
+<!--Data Tabble-->
+<div id="table" class="row">
+    <div class="col-sm-10">
+        <table datatable class="row-border hover" *ngIf="itinerarios" datatable="ng">
+            <thead>
+                <tr>
+                    <th>Linha</th>
+                    <th>Mapa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let itinerarios of itinerarios | keyvalue">
+                    <td>{{itinerarios.key}}</td>
+                    <td><a href="https://www.google.com/maps/?q={{itinerarios.value.lat}},{{itinerarios.value.lng}}" target="_blank">Ver mapa</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+   

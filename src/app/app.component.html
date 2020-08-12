@@ -1,0 +1,20 @@
+
+<nav class="navbar navbar-light" style="background-color: #1E90FF">
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-6">
+                <h1>Consulta Transportes</h1>
+            </div>
+            <div class="col-md-auto botao1">
+                <button onclick="move()" (click)="goToPage('lista-lotacao')" type="button" class="btn btn-warning btn-lg">Linha Lotação</button>
+            </div>
+            <div class="col-md-auto botao2">
+                <button onclick="move()" (click)="goToPage('lista-onibus')" type="button" class="btn btn-warning btn-lg">Linha Ônibus</button>
+            </div>
+        </div>
+    </div>    
+</nav>
+<div id="myProgress">
+    <div id="myBar"></div>
+</div>
+<router-outlet></router-outlet> 

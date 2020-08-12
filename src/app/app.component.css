@@ -1,0 +1,46 @@
+
+.botao1{
+    padding: 10px;
+}
+.botao2{
+    padding: 10px;
+}
+h1{
+    font-size: 35px;
+    width: 100%;
+    left: 750px;
+    text-align: center;
+    margin:0 auto;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 8px;
+    background-color: black;
+  }
+
+.navbar{
+    width: 100%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width:720px){
+    h1{
+      font-size: 30px;
+    }
+  }
+  @media screen and (min-width: 720px) and (max-width:1024px){
+    h1{
+      font-size: 35px;
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width:653px){
+    h1{
+      font-size: 35px;
+    }
+  }

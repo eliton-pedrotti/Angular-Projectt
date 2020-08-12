@@ -1,0 +1,24 @@
+
+<!--Data Tabble-->
+<div id="table" class="row">
+  <div class="col-sm-10">
+    <h1>Pesquise a linha de Ônibus Desejada</h1>
+      <table *ngIf="onibus" datatable class="row-border hover">
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Itinerário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let onibus of onibus">
+            <td>{{onibus.codigo}}</td>
+            <td>{{onibus.nome}}</td>
+            <td><a onclick="move()" [routerLink]="['/lista-itinerario', onibus.id]">Ver Itinerários</a></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</div>
+

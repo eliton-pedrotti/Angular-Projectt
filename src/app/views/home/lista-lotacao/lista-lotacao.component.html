@@ -1,0 +1,22 @@
+<!--Data Tabble-->
+<div id="table" class="row">
+  <div class="col-sm-10">
+    <h1>Pesquise a linha de Lotação desejada</h1>
+      <table *ngIf="lotacao" datatable class="row-border hover">
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Itinerário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let lotacao of lotacao">
+            <td>{{lotacao.codigo}}</td>
+            <td>{{lotacao.nome}}</td>
+            <td><a onclick="move()" [routerLink]="['/lista-itinerario-lotacao', lotacao.id]">Ver Itinerários</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
