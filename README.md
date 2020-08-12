@@ -6,7 +6,7 @@ As seguintes tecnologias foram utilizadas neste projeto:
 # Instalação
 Faça um clone do repositório:
 ```bash
-git clone https://github.com/eliton-pedrotti/Angular-Project.git
+git clone https://github.com/eliton-pedrotti/Angular-Projectt.git
 ```
 # Instale as Dependências dentro da pasta do projeto
 ```bash
