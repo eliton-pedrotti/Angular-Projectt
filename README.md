@@ -12,6 +12,7 @@ git clone https://github.com/eliton-pedrotti/Angular-Projectt.git
 ```bash
 cd /Angular-Projectt
 npm install
+npm install -g @angular/cli
 ``` 
 # Abra o projeto em seu navegador
 ```bash
