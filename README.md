@@ -26,7 +26,7 @@ git clone https://github.com/eliton-pedrotti/Angular-Projectt.git
 Entre na pasta do projeto:
 
 ```bash
-cd /Angular-Projectt
+cd Angular-Projectt
 ```
 
 Para instalar todas as depêndencias, execute:
